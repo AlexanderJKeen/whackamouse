@@ -1,0 +1,13 @@
+
+.game{
+    display:flex;
+    flex:row;
+    flex-wrap: wrap; 
+}
+.field{
+    flex:1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+    background-image: url('./field.png');
+    height:18vw;
+}
