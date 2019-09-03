@@ -1,25 +1,134 @@
-
 .game{
-    display:flex;
+    position: relative;
+    display: flex;
     flex:row;
-    flex-wrap: wrap; 
-}
-.hole{
-    flex:1 0 33.33%;
-    overflow: hidden;
-    background-image: url('./field.png');
-    height:18vw;
+    height:100%;
+    width:100;
 }
 
-.mole{
-    background-image: url('./badGuy.png');
-    background-size: 60%;
-    position: absolute;
-    top:100%;
-    widows: 100%;
-    height:100%;
-    transition:all 0.4s;
+#field1{
+    height:20vw;
+    width:30vw;
+    background-image: url(./field.png);
+    top:100px;
 }
-.hole.up .mole{
-    top:0;
+#mrbump1 {
+    position: relative;
+    width:130px;
+    height:130px;
+    animation-name: mrbump1;
+    animation-duration: 4s;
+    
+  }
+  
+  @keyframes mrbump1 {
+    0% {left: 300px; top: 160px;}
+    50% {left:300px; top: -60px; background-image: url(./badGuy.png)}
+    100%{left:300px; top: 160px;}
+  }
+  #field2{
+    position: relative;
+    height:20vw;
+    width:30vw;
+    background-image: url(./field.png);
+    top:10px;
+    left:0vw;
 }
+#mrbump2 {
+    position: relative;
+    width:130px;
+    height:130px;
+    animation-name: mrbump2;
+    animation-duration: 4s;
+  }
+  
+  @keyframes mrbump2 {
+    0% {left: 300px; top: 160px;}
+    50% {left:300px; top: -60px; background-image: url(./mrbump.png)}
+    100%{left:300px; top: 160px;}
+  }
+#field3{
+    position: relative;
+    height:20vw;
+    width:30vw;
+    background-image: url(./field.png);
+    top:-370px;
+    left:60vw;
+}
+#mrbump3 {
+    position: relative;
+    width:130px;
+    height:130px;
+    animation-name: mrbump3;
+    animation-duration: 4s;
+  }
+  
+  @keyframes mrbump3 {
+    0% {left: 300px; top: 160px;}
+    50% {left:300px; top: -60px; background-image: url(./badGuy.png)}
+    100%{left:300px; top: 160px;}
+  }
+#field4{
+    position: relative;
+    height:20vw;
+    width:30vw;
+    background-image: url(./field.png);
+    top:-18vw;
+    left:0vw;
+}
+#mrbump4 {
+    position: relative;
+    width:130px;
+    height:130px;
+    animation-name: mrbump4;
+    animation-duration: 4s;
+    
+  }
+  
+  @keyframes mrbump4 {
+    0% {left: 300px; top: 160px;}
+    50% {left:300px; top: -60px; background-image: url(./badGuy.png)}
+    100%{left:300px; top: 160px;}
+  }
+#field5{
+    position: relative;
+    height:20vw;
+    width:30vw;
+    background-image: url(./field.png);
+    top:-740px;
+    left:30vw;
+}
+#mrbump5 {
+    position: relative;
+    width:130px;
+    height:130px;
+    animation-name: mrbump5;
+    animation-duration: 4s;
+  }
+  
+  @keyframes mrbump5 {
+    0% {left: 300px; top: 160px;}
+    50% {left:300px; top: -60px; background-image: url(./badGuy.png)}
+    100%{left:300px; top: 160px;}
+  }
+#field6{
+    position: relative;
+    height:20vw;
+    width:30vw;
+    background-image: url(./field.png);
+    top:-1125px;
+    left:60vw;
+}
+#mrbump6 {
+    position: relative;
+    width:130px;
+    height:130px;
+    animation-name: mrbump6;
+    animation-duration: 4s;
+  }
+  
+  @keyframes mrbump6 {
+    0% {left: 300px; top: 160px;}
+    50% {left:300px; top: -60px; background-image: url(./badGuy.png)}
+    100%{left:300px; top: 160px;}
+  }
